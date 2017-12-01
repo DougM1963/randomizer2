@@ -1,10 +1,11 @@
- Array = ["Tyler", "Christi", "Jim", "Chris", "Doug"].shuffle # This line assigns the elements to the array
+ students = ["Tyler", "Christi", "Jim", "Chris", "Doug"] .shuffle # This line assigns the elements to the array and shuffles array each time run
 
-group1 = Array.first(3) # This line assigns the first 3 from the original array to the array group1
-group2 = Array.last(2) # This line assigns the last 2 from the original array to the array group2
+group1 = students.first(3) # This line assigns the first 3 from the original array to the array group1
+group2 = students.last(2) # This line assigns the last 2 from the original array to the array group2
 
-print group1 # This line prints out the array group1
-print group2 # This line prints out the array group2
+puts group1 # This line prints out the array group1
+puts "\n"   # This line puts a space between the groups
+puts group2 # This line prints out the array group2
 
 
 
